@@ -1,18 +1,11 @@
-package solid.lsp.exercise;
+package solid.ocp.exercise;
 
-public class Rectangle implements Shape{
+public class Rectangle implements Shape {
     private double width;
     private double height;
 
-    public Rectangle(){
-        super();
-    }
-
-    public void setWidth(double width) {
+    public Rectangle(double width, double height) {
         this.width = width;
-    }
-
-    public void setHeight(double height) {
         this.height = height;
     }
 
